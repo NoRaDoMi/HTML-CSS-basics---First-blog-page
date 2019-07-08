@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+
+.container{
+    width: 1140px;
+    margin: 0 auto; /*can giua*/
+    background-color: lavender;
+    padding: 0 20px;
+}
+
+.content{
+    width: 75%;
+    float: left;
+}
+
+form{
+    width: 25%;
+    float: left;
+}
+
+input, textarea{
+    display: block;
+}
+
+input{
+    margin: 20px;
+    width: 200px;
+    padding: 10px 20px;
+}
+
+textarea{
+    width: 200px;
+    margin-left: 20px;
+    padding: 20px;
+}
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1,h2{
+    color: purple;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.avatar_img{
+    border-radius: 20px; /* hinh tron là 50 %*/
+    width: 150px;
+    float: left;
+}
+
+.quote{
+    float:left;
+    margin-top:20px; /* chỉnh nằm giữa bức ảnh*/
+    margin-left:10px;
+   
+}
+
+.info{
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
